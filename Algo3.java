@@ -12,6 +12,7 @@ public interface Algo3 {
         for (int i = 0; i < nums2.length; i++) {
             System.out.print(nums[i]+", ");
         }
-        System.out.println("\b]");
+        System.out.println("\b\b]");
+        System.out.println(Arrays.toString(nums)); //This is an API
     }
 }
